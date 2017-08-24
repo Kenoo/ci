@@ -20,7 +20,11 @@ class User extends CI_Controller {
 	 */
 	public function index()
 	{
+		echo "index";
+        //$this->load->view('user_info');
+	}
 
-        $this->load->view('user_info');
+	public function login () {
+		echo "login";
 	}
 }

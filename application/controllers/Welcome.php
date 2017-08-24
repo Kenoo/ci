@@ -21,7 +21,6 @@ class Welcome extends SF_Controller {
 	public function index()
 	{
 		$this->test();
-        $this->load->view('welcome_message');
-
+		echo "<br/>welcome";
 	}
 }
